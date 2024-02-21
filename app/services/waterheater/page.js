@@ -53,7 +53,7 @@ export default function waterheater() {
                         Whether your trusty water heater needs a routine tune-up or a complete replacement, ensure a steady flow of hot water with professional installation and service. 
                         From choosing the right energy-efficient model to expert installation adhering to safety codes, reliable plumbers handle it all. 
                         They can also diagnose and fix leaks, drips, and temperature fluctuations, keeping your showers steamy and dishes sparkling clean. 
-                        Don't wait for a cold shower surprise, invest in peace of mind with regular maintenance and prompt repairs for your essential water heater.
+                        Don&apos;t wait for a cold shower surprise, invest in peace of mind with regular maintenance and prompt repairs for your essential water heater.
                     </p>
                 </div>
                 <div className="serviceDetailList">

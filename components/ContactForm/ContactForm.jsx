@@ -43,7 +43,7 @@ const ContactForm = () => {
     return (
       <div className="contactSubmited">
         <div className="contactSubmitedTitle">Thank you!</div>
-        <div className="contactSubmitedBody">We'll be in touch soon.</div>
+        <div className="contactSubmitedBody">We&apos;ll be in touch soon.</div>
       </div>
     );
   }

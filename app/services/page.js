@@ -92,7 +92,7 @@ export default function Services() {
                         </div>
                         <div className="servicePageTextContainer">
                             <h2>Kitchen</h2>
-                            <h3>Keep your kitchen's heart flowing smoothly with expert repairs, installations, and maintenance for sinks, disposals, dishwashers, and more.</h3>
+                            <h3>Keep your kitchen&apos;s heart flowing smoothly with expert repairs, installations, and maintenance for sinks, disposals, dishwashers, and more.</h3>
                         </div>
                     </div>
                 </Link>

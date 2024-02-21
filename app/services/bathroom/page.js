@@ -53,7 +53,7 @@ export default function bathroom() {
                         These services involve expert installation, repair, and maintenance of essential fixtures such as sinks, showers, toilets, and bathtubs. 
                         From addressing leaks and clogs to installing new plumbing systems during renovations, skilled plumbers provide comprehensive solutions to meet your specific needs. 
                         They ensure proper water flow, drainage, and water pressure, optimizing the performance of your bathroom plumbing while adhering to safety standards and regulations. 
-                        With their expertise, you can trust that your bathroom's plumbing system will operate efficiently, promoting convenience and peace of mind for you and your household.
+                        With their expertise, you can trust that your bathroom&apos;s plumbing system will operate efficiently, promoting convenience and peace of mind for you and your household.
                     </p>
                 </div>
                 <div className="serviceDetailList">
