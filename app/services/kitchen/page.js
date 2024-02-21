@@ -41,7 +41,7 @@ export default function kitchen() {
                 </div>
             </div>
             <div className="servicesBack">
-                <Link href="/services">&#60; Back to Services</Link>
+                <Link href="/services">Back to Services</Link>
             </div>
             <div className="servicesDetail">
                 <div>
