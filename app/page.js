@@ -33,6 +33,7 @@ export default function Home() {
                   layout="fill"
                   objectFit="cover"
                   placeholder="blur"
+                  sizes="100vh"
               />
           </div>
           <div className="logoFull">
@@ -78,6 +79,7 @@ export default function Home() {
                                 alt="Kaleb Smith Plumber"
                                 layout="fill"
                                 objectFit="contain"
+                                placeholder="blur"
 
                             />
                             

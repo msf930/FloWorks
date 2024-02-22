@@ -41,7 +41,7 @@ export default function kitchen() {
                 </div>
             </div>
             <div className="servicesBack">
-                <Link href="/services">&#60;Back to Services</Link>
+                <Link href="/services">&#60; All Services</Link>
             </div>
             <div className="servicesDetail">
                 <div>
@@ -72,6 +72,9 @@ export default function kitchen() {
 	                        <li>drain maintenance</li>
                         </ul>
                     </div>                   
+                </div>
+                <div className="servicesDetailReturn">
+                    <a href="/services">Return to All Services</a>
                 </div>
                 <div className="servicesDetailCTA">
                     <a href="tel:+7202631345">Call Now: 720-263-1345</a>
