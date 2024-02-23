@@ -29,7 +29,7 @@ export default function Home() {
           <div className="heroImgContainer">
               <Image
                   src={hero}
-                  alt="hero"
+                  alt="plumbing van"
                   layout="fill"
                   objectFit="cover"
                   placeholder="blur"
@@ -41,7 +41,7 @@ export default function Home() {
                   <Image
                       className="heroLogo"
                       src={og}
-                      alt="alt"
+                      alt="FloWorks logo"
                       layout="fill"
                       objectFit="contain"
                       objectPosition="center"
@@ -135,7 +135,7 @@ export default function Home() {
                         <Image 
                             className="serviceImg" 
                             src={servicesImg1} 
-                            alt="services"
+                            alt="water heater services"
                             layout="fill" 
                             objectFit="cover"
                             objectPosition="center"
@@ -147,7 +147,7 @@ export default function Home() {
                         <Image 
                             className="serviceImg" 
                             src={servicesImg2} 
-                            alt="services"
+                            alt="kitchen services"
                             layout="fill" 
                             objectFit="cover"
                             objectPosition="center"
@@ -159,7 +159,7 @@ export default function Home() {
                         <Image 
                             className="serviceImg" 
                             src={servicesImg3} 
-                            alt="services"
+                            alt="bathroom services"
                             layout="fill" 
                             objectFit="cover"
                             objectPosition="center"
@@ -195,7 +195,7 @@ export default function Home() {
                         <div className="whyImgContainer">
                             <Image
                                 src={floWorksMan}
-                                alt="Kaleb Smith Plumber"
+                                alt="cartoon plumber"
                                 layout="fill"
                                 objectFit="contain"
 

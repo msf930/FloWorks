@@ -61,7 +61,7 @@ export default function Services() {
                             <Image
                                 className="servicePageImg"
                                 src={waterHeater}
-                                alt="alt"
+                                alt="water heater plumbing"
                                 layout="fill"
                                 objectFit="cover"
                                 objectPosition="center"
@@ -81,7 +81,7 @@ export default function Services() {
                             <Image
                                 className="servicePageImg"
                                 src={kitchen}
-                                alt="alt"
+                                alt="kitchen plumbing"
                                 layout="fill"
                                 objectFit="cover"
                                 objectPosition="center"
@@ -102,7 +102,7 @@ export default function Services() {
                             <Image
                                 className="servicePageImg"
                                 src={bathroom}
-                                alt="alt"
+                                alt="bathroom plumbing"
                                 layout="fill"
                                 objectFit="cover"
                                 objectPosition="center"
@@ -123,7 +123,7 @@ export default function Services() {
                             <Image
                                 className="servicePageImg"
                                 src={outdoor}
-                                alt="alt"
+                                alt="outdoor plumbing"
                                 layout="fill"
                                 objectFit="cover"
                                 objectPosition="center"
@@ -144,7 +144,7 @@ export default function Services() {
                             <Image
                                 className="servicePageImg"
                                 src={sewer}
-                                alt="alt"
+                                alt="sewer plumbing"
                                 layout="fill"
                                 objectFit="cover"
                                 objectPosition="center"
@@ -165,7 +165,7 @@ export default function Services() {
                             <Image
                                 className="servicePageImg"
                                 src={inspection}
-                                alt="alt"
+                                alt="inspection and permit"
                                 layout="fill"
                                 objectFit="cover"
                                 objectPosition="center"

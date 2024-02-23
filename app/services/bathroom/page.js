@@ -105,7 +105,7 @@ export default function bathroom() {
                             <div className="whyImgContainer">
                                 <Image
                                     src={floWorksMan}
-                                    alt="Kaleb Smith Plumber"
+                                    alt="cartoon plumber"
                                     layout="fill"
                                     objectFit="contain"
 

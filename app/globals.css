@@ -446,6 +446,7 @@ body{
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1.5fr;
+        gap: 5%;
         height: auto;
         padding: 5%;
     }
