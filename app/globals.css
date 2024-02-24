@@ -636,6 +636,8 @@ body{
         background-color: #303030;
         border: none;
         border-bottom: 2px solid #fff;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
     }
     .contactInputContainer{
         display: flex;
@@ -663,6 +665,8 @@ body{
         background-color: #303030;
         border: none;
         border-bottom: 2px solid #fff;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
     }
     .contactInputAreaContainer{
         display: flex;
@@ -688,6 +692,8 @@ body{
         border-right: 2px solid #fff;
         border-bottom: 2px solid #fff;
         height: 80px;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
     }
     .contactSubmitContainer{
         display: flex;
@@ -1592,6 +1598,8 @@ body{
         background-color: #303030;
         border: none;
         border-bottom: 2px solid #fff;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
     }
     .contactInputContainer{
         display: grid;
@@ -1618,6 +1626,8 @@ body{
         background-color: #303030;
         border: none;
         border-bottom: 2px solid #fff;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
     }
     .contactInputAreaContainer{
         display: grid;
@@ -1641,6 +1651,8 @@ body{
         background-color: #303030;
         border-right: 2px solid #fff;
         border-bottom: 2px solid #fff;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
     }
     .contactSubmitContainer{
         display: flex;
@@ -2550,6 +2562,8 @@ body{
         background-color: #303030;
         border: none;
         border-bottom: 2px solid #fff;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
     }
     .contactInputContainer{
         display: grid;
@@ -2576,6 +2590,8 @@ body{
         background-color: #303030;
         border: none;
         border-bottom: 2px solid #fff;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
     }
     .contactInputAreaContainer{
         display: grid;
@@ -2599,6 +2615,8 @@ body{
         background-color: #303030;
         border-right: 2px solid #fff;
         border-bottom: 2px solid #fff;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
     }
     .contactSubmitContainer{
         display: grid;
