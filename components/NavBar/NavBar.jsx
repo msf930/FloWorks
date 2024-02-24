@@ -4,7 +4,6 @@ import React, {useEffect, useState} from "react";
 import Link from "next/link";
 import Logo from "../../public/og.png";
 import Image from "next/image";
-import { GiHamburgerMenu } from "react-icons/gi";
 const NavBar = () => {
     const [showNavbar, setShowNavbar] = useState(false);
     const [navIcon, setNavIcon] = useState("nav-icon4");
@@ -84,7 +83,6 @@ const NavBar = () => {
                             </ul>
                            
                         <div className="flex sm:hidden white" onClick={handleShowNavbar}>
-                            {/* <GiHamburgerMenu className="hamburger"/> */}
                             <div className={navIcon}>
                               <span></span>
                               <span></span>

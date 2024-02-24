@@ -154,7 +154,7 @@ body{
         height: 4px;
         width: 40px;
         background: #fff;
-        border-radius: 9px;
+        border-radius: 0;
         opacity: 1;
         left: 10px;
         -webkit-transform: rotate(0deg);
@@ -188,7 +188,7 @@ body{
         height: 4px;
         width: 40px;
         background: #fff;
-        border-radius: 9px;
+        border-radius: 0;
         opacity: 1;
         left: 10px;
         -webkit-transform: rotate(0deg);
