@@ -22,6 +22,7 @@ export default function Services() {
     
     return (
         <div>
+        <main>
             <div className="servicesHero">
                 <div className="servicesHeroImgContainer">
                     <Image
@@ -175,7 +176,7 @@ export default function Services() {
                             <h3 className="servicePageHoverText">Learn More</h3>
                         </div>
                         <div className="servicePageTextContainer">
-                            <h2>Inspection and permits</h2>
+                            <h2>Inspection and Permits</h2>
                             <h3>Plumbing permits and inspections safeguard your water systems and community by ensuring proper installation and adherence to safety codes</h3>
                         </div>
                     </div>
@@ -184,6 +185,7 @@ export default function Services() {
 
             </div>
             <ContactForm/>
+            </main>
             <Footer/>
         </div>
     );

@@ -13,6 +13,7 @@ export default function serviceArea() {
     
     return (
         <div>
+        <main>
             <div className="servicesHero">
                 <div className="servicesHeroImgContainer">
                     <Image
@@ -107,6 +108,7 @@ export default function serviceArea() {
                 <GoogleRating/> 
             </div>  
              <ContactForm/>
+             </main>
              <Footer/>         
         </div>
     );

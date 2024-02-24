@@ -11,7 +11,8 @@ export default function sewer() {
     
     return (
         <div>
-            <div className="servicesHero">
+        <main>
+            <section className="servicesHero">
                 <div className="servicesHeroImgContainer">
                     <Image
                         src={hero}
@@ -29,8 +30,8 @@ export default function sewer() {
                         <a href="tel:+7202631345">Call Now: 720-263-1345</a>
                     </div>
                 </div>
-            </div>
-            <div className="servicesAttention">
+            </section>
+            <section className="servicesAttention">
                 <div className="servicesAttentionContainer">
                     <h2 className="servicesAttentionText">
                         Water Corrosion? This could be a major leak in the near future.
@@ -39,11 +40,11 @@ export default function sewer() {
                         Contact us immediately for an inspection
                     </h2>
                 </div>
-            </div>
-            <div className="servicesBack">
+            </section>
+            <nav className="servicesBack">
                 <Link href="/services">&#60; All Services</Link>
-            </div>
-            <div className="servicesDetail">
+            </nav>
+            <section className="servicesDetail">
                 <div>
                     <h1>Inspections and Permits Services</h1>
                 </div>
@@ -73,8 +74,8 @@ export default function sewer() {
                 <div className="servicesDetailCTA">
                     <a href="tel:+7202631345">Call Now: 720-263-1345</a>
                 </div>
-            </div>
-            <div className="serviceWhy">
+            </section>
+            <section className="serviceWhy">
                 <div className="whyContainer">
                     <div className="whyLeft">
                         <div className="whyTextContainer">
@@ -107,8 +108,9 @@ export default function sewer() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         <ContactForm/>
+        </main>
         <Footer/>
             
 

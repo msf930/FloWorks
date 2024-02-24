@@ -12,6 +12,7 @@ export default function contact() {
      
      return (
         <div>
+        <main>
             <div className="servicesHero">
                 <div className="servicesHeroImgContainer">
                     <Image
@@ -65,6 +66,7 @@ export default function contact() {
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>  
+            </main>
             <Footer/>
         </div>
      );

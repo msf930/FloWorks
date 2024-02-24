@@ -7,12 +7,12 @@ import Image from "next/image";
 export default function Footer() {
     
     return (
-        <div>
+        <footer>
             <div className="footerTop">
                 <div className="footerLogoContainer">    
                     <Image
                         src={Logo}
-                        alt="logo"
+                        alt="FloWorks logo for footer"
                         layout="fill" 
                         objectFit="cover"
                         objectPosition="center"
@@ -29,7 +29,7 @@ export default function Footer() {
                     <h3>© Copyright 2021 by FloWorks Plumbing</h3>
                 </div>
             </div>
-        </div>
+        </footer>
 
     );
 

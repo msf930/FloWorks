@@ -49,14 +49,18 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="contact">
+    <section className="contact">
         <div className="contactLeft">
             <div className="contactHeroTextContainer">
                 <h2>Contact Us</h2>
-                <p>
+                <p className="contactHeroTextFull">
                     Don’t wait to enhance your plumbing solutions with our trusted expertise. 
                     Reach out to us now to schedule your service and discover the FloWorks difference. 
                     Your satisfaction is our priority, and we’re here to make your plumbing needs effortless and efficient.
+                </p>
+                <p className="contactHeroTextMobile">
+                    Don’t wait to enhance your plumbing solutions with our trusted expertise. 
+                    Reach out to us now to schedule your service and discover the FloWorks difference. 
                 </p>
             </div>
 
@@ -70,13 +74,15 @@ const ContactForm = () => {
                 className="contactForm"
                 >
                 <div className="contactNameContainer">
-                    <h3>Name</h3>
+                    <label for="nameFirst">Name</label>
                     <div className="nameContainer">
                         <div className="nameInputItem">
                             <input
                             type="text"
                             placeholder="First"
                             name="nameFirst"
+                            title="First Name"
+                            aria-label="First Name"
                             className="contactInputName"
                             required
                             />
@@ -86,6 +92,8 @@ const ContactForm = () => {
                             type="text"
                             placeholder="Last"
                             name="nameLast"
+                            title="Last Name"
+                            aria-label="Last Name"
                             className="contactInputName"
                             required
                             />
@@ -93,13 +101,15 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="contactInputContainer">
-                    <h3>Email</h3>
+                    <label>Email</label>
                     <div className="contactTextContainer">
                         <div className="textInputItem">
                             <input
                             type="email"
                             placeholder="you@gmail.com"
                             name="email"
+                            title="Email"
+                            aria-label="Email"
                             className="contactInputText"
                             required
                             />
@@ -107,13 +117,15 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="contactInputContainer">
-                    <h3>Phone</h3>
+                    <label>Phone</label>
                     <div className="contactTextContainer">
                         <div className="textInputItem">
                             <input
                             type="tel"
                             placeholder="111-111-1111"
                             name="phone"
+                            title="Telephone Number"
+                            aria-label="Telephone Number"
                             className="contactInputText"
                             required
                             />
@@ -121,12 +133,14 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="contactInputAreaContainer">
-                    <h3>Message</h3>
+                    <label>Message</label>
                     <div className="contactTextAreaContainer">
                         <div className="textInputItem">
                             <textarea
                                 placeholder="Your message"
                                 name="message"
+                                title="Type a detailed message about your plumbing needs"
+                                aria-label="Type a detailed message about your plumbing needs"
                                 className="contactInputTextArea"
                                 required
                                 />
@@ -139,6 +153,7 @@ const ContactForm = () => {
                     <button
                     className="contactSubmitBtn"
                     type="submit"
+                    value="Submit"
                     >
                     Submit
                     </button>
@@ -146,7 +161,7 @@ const ContactForm = () => {
                 </form>
             </div>
         </div>
-    </div>
+    </section>
   );
 };
 

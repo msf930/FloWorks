@@ -51,6 +51,18 @@ body{
     .header2 .navMenuLink{
         color: black;
     }
+    .header .nav-icon4 span{
+        background: #fff;
+    }
+    .header2 .nav-icon4 span{
+        background: #000;
+    }
+    .header .nav-icon4open span{
+        background: #fff;
+    }
+    .header2 .nav-icon4open span{
+        background: #000;
+    }
     .menu-icon {
         display: block;
         cursor: pointer;
@@ -119,6 +131,122 @@ body{
         color: black;
         width: 120px;
         text-align: left;
+    }
+    .nav-icon4 {
+        width: 60px;
+        height: 45px;
+        position: relative;
+        margin: 50px auto;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+      }
+      
+      .nav-icon4 span {
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 40px;
+        background: #fff;
+        border-radius: 9px;
+        opacity: 1;
+        left: 10px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+      }
+      .nav-icon4open {
+        width: 60px;
+        height: 45px;
+        position: relative;
+        margin: 50px auto;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+      }
+      
+      .nav-icon4open span {
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 40px;
+        background: #fff;
+        border-radius: 9px;
+        opacity: 1;
+        left: 10px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+      }
+      
+    
+    .nav-icon4 span:nth-child(1) {
+      top: 6px;
+      -webkit-transform-origin: left center;
+      -moz-transform-origin: left center;
+      -o-transform-origin: left center;
+      transform-origin: left center;
+    }
+    
+    .nav-icon4 span:nth-child(2) {
+      top: 18px;
+      -webkit-transform-origin: left center;
+      -moz-transform-origin: left center;
+      -o-transform-origin: left center;
+      transform-origin: left center;
+    }
+    
+    .nav-icon4 span:nth-child(3) {
+      top: 30px;
+      -webkit-transform-origin: left center;
+      -moz-transform-origin: left center;
+      -o-transform-origin: left center;
+      transform-origin: left center;
+    }
+    
+    .nav-icon4open span:nth-child(1) {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      top: 15px;
+      left: 10px;
+    }
+    
+    .nav-icon4open span:nth-child(2) {
+        top: 18px;
+        opacity: 0;
+    }
+    
+    .nav-icon4open span:nth-child(3) {
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      top: 15px;
+      left: 10px;
     }
     .footerTop{
         background-color: #f7f7f7;
@@ -230,11 +358,16 @@ body{
         color: red;
         height: 16px;
         width: auto;
-
     }
     .aboutTextContainer h1{
         font-size: xx-large;
         font-weight: 450;
+    }
+    .aboutPFull{
+        display: none;
+    }
+    .aboutPMobile{
+        display: flex;
     }
     .aboutRight{
         display: flex;
@@ -318,6 +451,7 @@ body{
         justify-content: space-evenly;
         height: auto;
         width: auto;
+        padding-bottom: 30px;
     }
     .servicesTitle{
         margin-top: 10px;
@@ -329,13 +463,18 @@ body{
         justify-content: space-center;
         gap: 20px;
         align-items: center;
-        height: 200vh;
+        height: 120vh;
         width: auto;
     }
     .servicesItem{
         position: relative;
         width: 80vw;
-        height: 100%;
+        height: 80%;
+    }
+    .servicesItemAll{
+        position: relative;
+        width: 80vw;
+        height: 80%;
     }
     .servicesItemTitle{
         position: absolute;
@@ -351,10 +490,10 @@ body{
     }
     .serviceImg{
         filter: brightness(40%);
-        height: 80vh;
+        height: 40vh;
     }
     .servicesLinkContainer{
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         margin-top: 30px;
@@ -588,6 +727,12 @@ body{
         font-size: 14px;
         color: #fff;
     }
+    .contactHeroTextFull{
+        display: none;
+    }
+    .contactHeroTextMobile{
+        display: flex;
+    }
     .contactRight{
         display: flex;
         justify-content: center;
@@ -616,7 +761,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .contactNameContainer h3{
+    .contactNameContainer label{
         color: #fff;
         display: none   ;
     }
@@ -645,7 +790,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .contactInputContainer h3{
+    .contactInputContainer label{
         color: #fff;
         display: none;
     }
@@ -674,7 +819,7 @@ body{
         justify-content: center;
         align-items: start;
     }
-    .contactInputAreaContainer h3{
+    .contactInputAreaContainer label{
         justify-self: start;
         color: #fff;
         display: none;
@@ -1214,6 +1359,12 @@ body{
         width: auto;
 
     }
+    .aboutPFull{
+        display: flex;
+    }
+    .aboutPMobile{
+        display: none;
+    }
     .aboutTextContainer h1{
         font-size: xx-large;
         font-weight: 400;
@@ -1309,6 +1460,12 @@ body{
         position: relative;
         width: 300px;
         height: 500px;
+    }
+    .servicesItemAll{
+        display: none;
+        position: relative;
+        width: 80vw;
+        height: 80%;
     }
     .servicesItemTitle{
         position: absolute;
@@ -1551,6 +1708,12 @@ body{
         color: #fff;
         padding: 0 10%;
     }
+    .contactHeroTextFull{
+        display: flex;
+    }
+    .contactHeroTextMobile{
+        display: none;
+    }
     .contactRight{
         display: flex;
         justify-content: center;
@@ -1579,7 +1742,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .contactNameContainer h3{
+    .contactNameContainer label{
         color: #fff;
     }
     .nameContainer{
@@ -1607,7 +1770,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .contactInputContainer h3{
+    .contactInputContainer label{
         color: #fff;
     }
     .contactTextContainer{
@@ -1635,7 +1798,7 @@ body{
         justify-content: center;
         align-items: start;
     }
-    .contactInputAreaContainer h3{
+    .contactInputAreaContainer label{
         justify-self: start;
         color: #fff;
     }
@@ -2172,6 +2335,12 @@ body{
         width: auto;
 
     }
+    .aboutPFull{
+        display: flex;
+    }
+    .aboutPMobile{
+        display: none;
+    }
     .aboutTextContainer h1{
         font-size: xx-large;
         font-weight: 450;
@@ -2272,6 +2441,12 @@ body{
         position: relative;
         width: 300px;
         height: 500px;
+    }
+    .servicesItemAll{
+        display: none;
+        position: relative;
+        width: 80vw;
+        height: 80%;
     }
     .servicesItemTitle{
         position: absolute;
@@ -2515,6 +2690,12 @@ body{
         font-size: medium;
         color: #fff;
     }
+    .contactHeroTextFull{
+        display: flex;
+    }
+    .contactHeroTextMobile{
+        display: none;
+    }
     .contactRight{
         display: flex;
         justify-content: center;
@@ -2543,7 +2724,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .contactNameContainer h3{
+    .contactNameContainer label{
         color: #fff;
     }
     .nameContainer{
@@ -2571,7 +2752,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .contactInputContainer h3{
+    .contactInputContainer label{
         color: #fff;
     }
     .contactTextContainer{
@@ -2599,7 +2780,7 @@ body{
         justify-content: center;
         align-items: start;
     }
-    .contactInputAreaContainer h3{
+    .contactInputAreaContainer label{
         justify-self: start;
         color: #fff;
     }

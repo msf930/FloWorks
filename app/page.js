@@ -7,6 +7,7 @@ import aboutImg from '../public/aboutImg.webp';
 import servicesImg2 from '../public/servicesPlaceholder.jpg';
 import servicesImg1 from '../public/homeWaterHeater.jpg';
 import servicesImg3 from '../public/homeBathroom.jpg';
+import servicesImg4 from '../public/homeAllServices.jpg';
 import floWorksMan from '../public/floWorksMan.png';
 
 import { FaLocationDot } from "react-icons/fa6";
@@ -25,7 +26,8 @@ export default function Home() {
 
     return (
     <div>
-      <div className="hero">
+        <main>
+      <section className="hero">
           <div className="heroImgContainer">
               <Image
                   src={hero}
@@ -52,8 +54,8 @@ export default function Home() {
                   <a href="tel:+7202631345">Call Now: 720-263-1345</a>
               </div>
           </div>
-      </div>
-        <div className="about">
+      </section>
+        <section className="about">
             <div className="aboutContainer">
                 <div className="aboutLeft">
                     <div className="aboutTextContainer">
@@ -62,11 +64,15 @@ export default function Home() {
                             <h3>Lakewood, Colorado</h3>
                         </div>
                         <h1>Get the Job Done Right</h1>
-                        <p>
+                        <p className="aboutPFull">
                             Neglecting plumbing issues can bring significant financial and convenience hardships.
                             Ignored leaks lead to water damage and high bills, while inefficient water heaters
                             result in cold showers and increased energy costs. FloWorks Plumbing delivers timely,
                             professional solutions, preventing minor issues from becoming major headaches.
+                            Choose us for peace of mind and a worry-free plumbing experience, avoiding the high costs of inaction.
+                        </p>
+                        <p className="aboutPMobile">
+                            FloWorks Plumbing delivers timely, professional solutions, preventing minor issues from becoming major headaches.
                             Choose us for peace of mind and a worry-free plumbing experience, avoiding the high costs of inaction.
                         </p>
                     </div>
@@ -88,8 +94,8 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="values">
+        </section>
+        <section className="values">
             <div className="valuesContainer">
                 <div className="valuesItem">
                     <div className="valuesTitleContainer">
@@ -123,8 +129,8 @@ export default function Home() {
                 </div>
 
             </div>
-        </div>
-        <div className="services">
+        </section>
+        <section className="services">
             <div className="servicesContainer">
                 <div className="servicesTitle">
                     <h1>Our Services</h1>
@@ -166,14 +172,26 @@ export default function Home() {
                             placeholder='blur'
                         />
                     </Link>
+                    <Link href="/services" className="servicesItemAll">
+                        <h2 className="servicesItemTitle">View All Services</h2>
+                        <Image 
+                            className="serviceImg" 
+                            src={servicesImg4} 
+                            alt="bathroom services"
+                            layout="fill" 
+                            objectFit="cover"
+                            objectPosition="center"
+                            placeholder='blur'
+                        />
+                    </Link>
                 </div>
                 <div className="servicesLinkContainer">
                     <Link href="/services" className="servicesLink">See All Services</Link>
                 </div>
 
             </div>
-        </div>
-        <div className="why">
+        </section>
+        <section className="why">
             <div className="whyContainer">
                 <div className="whyLeft">
                     <div className="whyTextContainer">
@@ -206,8 +224,8 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="area">
+        </section>
+        <section className="area">
             <div className="areaContainer">
                 <div className="areaLeft">
                     <div className="areaTextContainer">
@@ -248,9 +266,10 @@ export default function Home() {
                          </div> 
                 </div>
             </div>
-        </div>
+        </section>
         <GoogleRating/>
         <ContactForm/>
+        </main>
         <Footer/>
         
     </div>

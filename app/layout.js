@@ -1,9 +1,9 @@
-import { Inter } from "next/font/google";
+import { Roboto_Flex } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar/NavBar";
 
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto_flex = Roboto_Flex({ subsets: ["latin"],display: 'swap' });
 
 export const metadata = {
   title: "FloWorks Plumbing",
@@ -18,6 +18,7 @@ export const metadata = {
         url: 'https://floworksplumbing.com/og.png',
         width: 800,
         height: 600,
+        alt: 'FloWorks Plumbing Logo',
       },
       {
         url: 'https://floworksplumbing.com/og-alt.png',
@@ -34,7 +35,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
       <html lang="en">
-      <body className={inter.className}>
+      <body className={roboto_flex.className}>
       <NavBar/>
       {children}
       </body>
