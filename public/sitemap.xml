@@ -2,53 +2,53 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://floworksplumbing.com</loc>
+      <loc>https://floworks.vercel.app/</loc>
       <lastmod>2024-01-01</lastmod>
       <priority>0.9</priority>
    </url>
    <url>
-      <loc>https://floworksplumbing.com/services</loc>
+      <loc>https://floworks.vercel.app//services</loc>
       <lastmod>2024-01-01</lastmod>
       <priority>0.9</priority>
    </url>
    <url>
-      <loc>https://floworksplumbing.com/services/bathroom</loc>
+      <loc>https://floworks.vercel.app/services/bathroom</loc>
       <lastmod>2024-01-01</lastmod>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://floworksplumbing.com/services/inspection</loc>
+      <loc>https://floworks.vercel.app/services/inspection</loc>
       <lastmod>2024-01-01</lastmod>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://floworksplumbing.com/services/kitchen</loc>
+      <loc>https://floworks.vercel.app/services/kitchen</loc>
       <lastmod>2024-01-01</lastmod>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://floworksplumbing.com/services/outdoor</loc>
+      <loc>https://floworks.vercel.app/services/outdoor</loc>
 
       <lastmod>2024-01-01</lastmod>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://floworksplumbing.com/services/sewer</loc>
+      <loc>https://floworks.vercel.app/services/sewer</loc>
       <lastmod>2024-01-01</lastmod>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://floworksplumbing.com/services/waterheater</loc>
+      <loc>https://floworks.vercel.app/services/waterheater</loc>
       <lastmod>2024-01-01</lastmod>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://floworksplumbing.com/serviceArea</loc>
+      <loc>https://floworks.vercel.app/serviceArea</loc>
       <lastmod>2024-01-01</lastmod>
       <priority>0.7</priority>
    </url>
    <url>
-      <loc>https://floworksplumbing.com/contact</loc>
+      <loc>https://floworks.vercel.app/contact</loc>
       <lastmod>2024-01-01</lastmod>
       <priority>0.7</priority>
    </url>
