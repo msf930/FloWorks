@@ -12,17 +12,17 @@ export const metadata = {
     title: "FloWorks Plumbing",
     description:
       "Denver local plumbing solutions for your home or business. Expert repairs, installations, and prompt service. Contact us today!",
-    url: "https://floworksplumbing.com",
+    url: "https://floworks.vercel.app",
     siteName: "FloWorks Plumbing",
     images: [
       {
-        url: "https://floworksplumbing.com/og.png",
+        url: "https://floworks.vercel.app/og.png",
         width: 800,
         height: 600,
         alt: "FloWorks Plumbing Logo",
       },
       {
-        url: "https://floworksplumbing.com/og-alt.png",
+        url: "https://floworks.vercel.app/og-alt.png",
         width: 1800,
         height: 1600,
         alt: "FloWorks Plumbing Logo",
