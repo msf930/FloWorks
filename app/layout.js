@@ -41,6 +41,7 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="rSQ9LcpuhfFz6g3GksYkiqqIB0BPGz0Dy-7Axvkv8JM"
         />
+        <meta name="robots" content="noindex" />
       </head>
       <body className={roboto_flex.className}>
         <NavBar />
